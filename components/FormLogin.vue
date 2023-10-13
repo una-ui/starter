@@ -33,7 +33,7 @@ function submitForm(){
       </NFormGroup>
     </div>
 
-    <NButton v-if="!loading" class="mt-4" type="submit" label="Submit" :loading="loading" />
-    <NButton v-else btn="solid-white" label="Cancel" @click="loading = false" />
+    <NButton class="mt-4" type="submit" label="Submit" :loading="loading" />
+    <NButton v-if="loading"  btn="solid-white" label="Cancel" @click="loading = false" />
   </form>
 </template>
