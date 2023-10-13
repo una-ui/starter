@@ -4,7 +4,6 @@ const loading = ref(false)
 const form = ref({
   email: '',
   password: '',
-  confirmPassword: '',
 })
 
 function submitForm(){
@@ -30,10 +29,6 @@ function submitForm(){
 
       <NFormGroup label="Password">
         <NInput v-model="form.password" type="password" />
-      </NFormGroup>
-
-      <NFormGroup label="Confirm Password">
-        <NInput v-model="form.confirmPassword" type="password" />
       </NFormGroup>
     </div>
 
