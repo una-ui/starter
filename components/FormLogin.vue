@@ -2,7 +2,6 @@
 const loading = ref(false)
 
 const form = ref({
-  name: '',
   email: '',
   password: '',
   confirmPassword: '',
@@ -25,10 +24,6 @@ function submitForm(){
       :class="{ 'n-disabled': loading }"
       class="flex flex-col gap-4"
     >
-      <NFormGroup label="Name" status="error" message="Required" required>
-        <NInput v-model="form.name" placeholder="John Doe" />
-      </NFormGroup>
-
       <NFormGroup label="Email">
         <NInput v-model="form.email" placeholder="johndoe@email.com" />
       </NFormGroup>
