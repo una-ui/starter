@@ -8,6 +8,10 @@ const form = ref({
 
 function submitForm(){
   loading.value = true
+
+  setTimeout(() => {
+    loading.value = false
+  }, 3000);
 }
 </script>
 
