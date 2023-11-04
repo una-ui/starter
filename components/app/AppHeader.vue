@@ -4,10 +4,9 @@
       Una <span class="text-primary">UI</span>
     </h1>
 
-    <div class="inline-flex">
-      
-    <ColorMode/>
-    <NThemeSwitcher/>
-  </div>
+    <div class="inline-flex space-x-2">
+      <ColorMode/>
+      <NThemeSwitcher/>
+    </div>
   </div>
 </template>
