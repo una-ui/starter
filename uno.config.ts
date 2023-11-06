@@ -1,29 +1,7 @@
-import {
-  presetAttributify,
-  presetIcons,
-  presetUno,
-  transformerDirectives,
-  transformerVariantGroup,
-} from 'unocss'
+import { defineConfig } from 'unocss'
 
-import presetUna from '@una-ui/preset'
-import prefixes from '@una-ui/preset/prefixes'
-import extratorUna from '@una-ui/extractor-vue-script'
+import config from '@una-ui/nuxt/una.config'
 
-export default {
-  presets: [
-    presetUno(),
-    presetAttributify(),
-    presetIcons(),
-    presetUna(),
-  ],
-  transformers: [
-    transformerVariantGroup(),
-    transformerDirectives(),
-  ],
-  extractors: [
-    extratorUna({
-      prefixes,
-    }),
-  ],
-}
+export default defineConfig({
+  ...config
+})
