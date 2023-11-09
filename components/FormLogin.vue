@@ -1,4 +1,5 @@
 <script setup lang="ts">
+
 const loading = ref(false)
 
 const form = ref({
@@ -34,6 +35,6 @@ function submitForm(){
     </div>
 
     <NButton class="mt-4" type="submit" label="Submit" :loading="loading" />
-    <NButton v-if="loading"  btn="solid-white" label="Cancel" @click="loading = false" />
+    <NButton v-if="loading" btn="solid-white" label="Cancel" @click="loading = false" />
   </form>
 </template>
