@@ -11,7 +11,14 @@ export default defineNuxtConfig({
     global: true,
   },
 
+  devtools: {
+    enabled: true,
+    componentInspector: false
+  },
+
   colorMode: {
     preference: 'dark',
-  }
+  },
+
+  compatibilityDate: '2024-09-10'
 })
