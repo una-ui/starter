@@ -6,7 +6,7 @@
       </div>
 
       <div class="text-center space-y-1">
-        <h1 class="text-3xl font-extrabold text-muted">
+        <h1 class="text-3xl font-extrabold text-accent">
           Sign in to your account
         </h1>
         <p class="text-sm font-medium text-primary">
