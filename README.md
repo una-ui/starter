@@ -2,11 +2,11 @@
 
 Look at the [Una UI documentation](https://unaui.com/) to learn more.
 
-### GitHub Template
+## GitHub Template
 
 [Create a repo from this template on GitHub](https://github.com/una-ui/starter/generate).
 
-### Clone to local
+## Clone to local
 
 If you prefer to do it manually
 
