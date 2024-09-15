@@ -2,12 +2,17 @@
 
 Look at the [Una UI documentation](https://unaui.com/) to learn more.
 
-## Clone
+## GitHub Template
 
-Clone this repository:
+[Create a repo from this template on GitHub](https://github.com/una-ui/starter/generate).
+
+## Clone to local
+
+If you prefer to do it manually
 
 ```bash
-git clone git@github.com:una-ui/starter.git
+npx degit una-ui/starter starter
+cd starter
 ```
 
 ## Setup
