@@ -35,5 +35,5 @@ export default defineConfig({
   ],
 
   // una-ui config
-  ...una()
+  ...una() as any
 })
