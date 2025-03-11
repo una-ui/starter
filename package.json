@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "@una-ui/nuxt": "npm:@una-ui/nuxt-edge@latest",
-    "nuxt": "^3.16.0"
+    "nuxt": "^3.16.0",
+    "vue": "latest"
   }
 }
