@@ -10,7 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@una-ui/nuxt": "npm:@una-ui/nuxt-edge@latest",
+    "@una-ui/nuxt": "latest",
     "nuxt": "^3.16.0",
     "vue": "latest"
   }
