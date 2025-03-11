@@ -10,11 +10,8 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@una-ui/nuxt": "latest",
+    "@una-ui/nuxt": "npm:@una-ui/nuxt-edge@latest",
     "nuxt": "^3.16.0",
-    "vue": "latest",
-    "@iconify-json/lucide": "^1.2.24",
-    "@iconify-json/radix-icons": "^1.2.2",
-    "@iconify-json/tabler": "^1.2.14"
+    "vue": "latest"
   }
 }
